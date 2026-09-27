@@ -1,0 +1,18 @@
+nav{
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center; 
+    padding: 1rem; 
+    color: white;
+}
+.circle{
+    width:10px;
+    height:10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+}
