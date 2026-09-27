@@ -1,4 +1,4 @@
-nav{
+.sharedContainer{
     display: flex; 
     justify-content: space-between;  
     align-items: center; 
@@ -15,4 +15,42 @@ nav{
     display:flex;
     align-items:center;
     gap: 10px;
+}
+.container{
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 2rem;
+    color: white;
+
+}
+.status {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+    border-left:1px solid rgba(255,255,255,.15);
+}
+
+.state{
+    padding: 0 2rem;
+    border-right:1px solid rgba(255,255,255,.15);
+    border-bottom:1px solid rgba(255,255,255,.15);
+
+    transition:.3s;
+}
+.state:hover{
+    background-color:#3b61ff;
+}
+.icon{
+    display:flex;
+    justify-content: space-between;
+    /* align-items:center;
+    gap: 1rem; */
+}
+.hero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap: 1rem;
 }
